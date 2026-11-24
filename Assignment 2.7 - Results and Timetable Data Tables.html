@@ -1,249 +1,110 @@
 <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>
-        Student Results and Timetable
-      </title>
-    </head>
-    <body>
-      <h1>
-        Web Development Class Data
-      </h1>
-      <main>
-        <section>
-          <h2>
-            Student Results
-          </h2>
-          <table>
-            <caption>
-              Web development exam scores for three students in HTML, CSS and JavaScript, with total scores and class averages
-            </caption>
-            <thead>
-              <tr>
-                <th scope="col" rowspan="2">
-                  Student
-                </th>
-                <th scope="colgroup" colspan="3">
-                  Subject scores
-                </th>
-                <th scope="col" rowspan="2">
-                  Total
-                </th>
-              </tr>
-              <tr>
-                <th scope="col">
-                  HTML
-                </th>
-                <th scope="col">
-                  CSS
-                </th>
-                <th scope="col">
-                  JavaScript
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">
-                  Ada
-                </th>
-                <td>
-                  82
-                </td>
-                <td>
-                  71
-                </td>
-                <td>
-                  69
-                </td>
-                <td>
-                  222
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">
-                  Musa
-                </th>
-                <td>
-                  75
-                </td>
-                <td>
-                  81
-                </td>
-                <td>
-                  74
-                </td>
-                <td>
-                  230
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">
-                  Grace
-                </th>
-                <td>
-                  91
-                </td>
-                <td>
-                  88
-                </td>
-                <td>
-                  80
-                </td>
-                <td>
-                  259
-                </td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <th scope="row">
-                  Class average
-                </th>
-                <td>
-                  82.67
-                </td>
-                <td>
-                  80.00
-                </td>
-                <td>
-                  74.33
-                </td>
-                <td>
-                  237.00
-                </td>
-              </tr>
-            </tfoot>
-          </table>
-        </section>
-        <section>
-          <h2>
-            Weekly Timetable
-          </h2>
-          <table>
-            <caption>
-              Weekly class timetable for the web development, Monday to Friday, with teaching periods and a lunch break
-            </caption>
-            <thead>
-              <tr>
-                <th scope="col">
-                  Time
-                </th>
-                <th scope="col">
-                  Monday
-                </th>
-                <th scope="col">
-                  Tuesday
-                </th>
-                <th scope="col">
-                  Wednesday
-                </th>
-                <th scope="col">
-                  Thursday
-                </th>
-                <th scope="col">
-                  Friday
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">
-                  08:00 &ndash; 10:00
-                </th>
-                <td>
-                  HTML Fundamentals
-                </td>
-                <td>
-                  CSS Styling
-                </td>
-                <td>
-                  JavaScript Basics
-                </td>
-                <td>
-                  HTML Forms
-                </td>
-                <td rowspan="2">
-                  Project Workshop (double period)
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">
-                  10:00 &ndash; 12:00
-                </th>
-                <td>
-                  CSS Styling
-                </td>
-                <td>
-                  JavaScript Basics
-                </td>
-                <td>
-                  HTML Fundamentals
-                </td>
-                <td>
-                  Responsive Design
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">
-                  12:00 &ndash; 13:00
-                </th>
-                <td colspan="5">
-                  Lunch break
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">
-                  13:00 &ndash; 15:00
-                </th>
-                <td>
-                  Web Accessibility
-                </td>
-                <td>
-                  HTML Forms
-                </td>
-                <td rowspan="2">
-                  JavaScript Lab (double period)
-                </td>
-                <td>
-                  JavaScript Basics
-                </td>
-                <td>
-                  Revision Clinic
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">
-                  15:00 &ndash; 17:00
-                </th>
-                <td>
-                  Project Clinic
-                </td>
-                <td>
-                  Responsive Design
-                </td>
-                <td>
-                  Mentoring Session
-                </td>
-                <td>
-                  Free period
-                </td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <th scope="row">
-                  Note
-                </th>
-                <td colspan="5">
-                  Double periods run for four hours in the same room. Lab sessions need a computer.
-                </td>
-              </tr>
-            </tfoot>
-          </table>
-        </section>
-      </main>
-    </body>
-  </html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width, scale-inital=1.0">
+  <title>My Tables</title>
+</head>
+<body>
+
+  <h1>My Tables</h1>
+
+  <h2>Student Results</h2>
+  <table>
+    <caption>Student results in HTML, CSS and JavaScript</caption>
+    <thead>
+      <tr>
+        <th>Student</th>
+        <th>HTML</th>
+        <th>CSS</th>
+        <th>JavaScript</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Ada</th>
+        <td>82</td>
+        <td>71</td>
+        <td>69</td>
+        <td>222</td>
+      </tr>
+      <tr>
+        <th>Musa</th>
+        <td>75</td>
+        <td>81</td>
+        <td>74</td>
+        <td>230</td>
+      </tr>
+      <tr>
+        <th>Grace</th>
+        <td>91</td>
+        <td>88</td>
+        <td>80</td>
+        <td>259</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>Average</th>
+        <td>82.67</td>
+        <td>80</td>
+        <td>74.33</td>
+        <td>237</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <h2>Weekly Timetable</h2>
+  <table>
+    <caption>Weekly class timetable</caption>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>8:00 - 10:00</th>
+        <td>HTML</td>
+        <td>CSS</td>
+        <td>JavaScript</td>
+        <td>HTML</td>
+        <td>Project</td>
+      </tr>
+      <tr>
+        <th>10:00 - 12:00</th>
+        <td>CSS</td>
+        <td>JavaScript</td>
+        <td>HTML</td>
+        <td>CSS</td>
+        <td>Project</td>
+      </tr>
+      <tr>
+        <th>12:00 - 1:00</th>
+        <td colspan="5">Lunch break</td>
+      </tr>
+      <tr>
+        <th>1:00 - 3:00</th>
+        <td>JavaScript</td>
+        <td>HTML</td>
+        <td>JavaScript Lab</td>
+        <td>JavaScript</td>
+        <td>Revision</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>Note</th>
+        <td colspan="5">Lab sessions need a computer.</td>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>
